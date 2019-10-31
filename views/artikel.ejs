@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galaxy Blogspot</title>
+  </head>
+
+  <body>
+    <% include navbar/navbarArtikel %>
+
+    <div class="container post">
+      <div class="row">
+        <div class="col-md-6 post-title">
+          <h1>Software House</h1>
+          <p class="author">
+            <strong>Artikel</strong>
+            <span class="text-muted"
+              ><script>
+                document.write(date);
+              </script></span
+            >
+          </p>
+        </div>
+        <div class="col-md-6 col-md-offset-0 post-body">
+          <p>
+            Berikut adalah daftar-daftar artikel blogspot yang telah dibuat:
+          </p>
+
+          <figure>
+            <a href="/artikel1"
+              ><img
+                class="img-thumbnail"
+                alt="tata surya"
+                src="https://nbu.bg/files/zali/aula.png"
+            /></a>
+            <a href="/artikel1"
+              ><strong>Apa itu Aula?</strong></a
+            >
+          </figure>
+          <br />
+
+          <figure>
+            <a href="/artikel2"
+              ><img
+                class="img-thumbnail"
+                alt="ngoding skuy"
+                src="https://hackernoon.com/hn-images/1*cCdSJ0mOqjQkm-soL5hlIw.jpeg"
+            /></a>
+            <a href="/artikel2"><strong>Bahasa Pemrograman yang terkenal sekarang.</strong></a>
+          </figure>
+          <br />
+        </div>
+      </div>
+    </div>
+    <% include footer/footer %>
+  </body>
+</html>

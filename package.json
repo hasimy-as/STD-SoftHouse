@@ -1,0 +1,26 @@
+{
+  "name": "fullblog",
+  "version": "1.0.0",
+  "description": "Website bertema blog, dengan Semantic dan Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasimy-as/STD-SoftHouse.git"
+  },
+  "author": "Hasimy",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "esm": "^3.2.25",
+    "express": "~4.16.1"
+  },
+  "bugs": {
+    "url": "https://github.com/hasimy-as/STD-SoftHouse/issues"
+  },
+  "homepage": "https://github.com/hasimy-as/STD-SoftHouse#readme"
+}
